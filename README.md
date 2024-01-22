@@ -28,7 +28,6 @@ https://github.com/inwinter04/win11React_CN
 
 https://github.com/blueedgetechno/win11React
 
-进入原项目支持他们！
 
 
 ## 许可证
