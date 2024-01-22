@@ -1,9 +1,18 @@
 {
   "name": "godoos",
-  "description": "Win11 made in React",
-  "repository": "https://github.com/blueedgetechno/win11React",
-  "version": "0.1.1",
+  "description": "webos",
+  "repository": "https://gitee.com/ruitao_admin/godo-os-react",
+  "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "ghbuild": "CI=false vite build",
+    "prettier": "prettier --write .",
+    "turbuild": "react-scripts build",
+    "tauri": "tauri",
+    "crowdin": "crowdin"
+  },
   "dependencies": {
     "-": "^0.0.1",
     "@ant-design/icons": "^5.2.6",
@@ -38,15 +47,7 @@
     "tiny-pinyin": "^1.3.2",
     "translation-check": "^1.0.3"
   },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "ghbuild": "CI=false vite build",
-    "prettier": "prettier --write .",
-    "turbuild": "react-scripts build",
-    "tauri": "tauri",
-    "crowdin": "crowdin"
-  },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
